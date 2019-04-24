@@ -2,7 +2,10 @@ const deScreenreadEmoji = (node) => {
   const emoji = node.querySelectorAll('.Emoji');
 
   if (emoji) {
-    emoji.forEach(el => el.removeAttribute('aria-label'));
+    emoji.forEach(el => {
+      el.removeAttribute('aria-label');
+      el.removeAttribute('title');
+    });
   }
 };
 
