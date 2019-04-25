@@ -2,4 +2,5 @@
 
 ## Current features
 
-* Stop screen readers from reading out (`aria-label`) emoji in user handles
+* Hide emoji in user handles from screen reader
+* Attempt to replace "fancy" text in tweets with plain text for screen reader 
